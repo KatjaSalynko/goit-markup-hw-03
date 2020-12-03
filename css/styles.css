@@ -28,6 +28,12 @@ body {
 .address-menu {
     font-style: normal;
 }
+
+.address-menu-header{
+    font-style: normal;
+}
+
+
 .address-menu-footer {
     background-color: #2F303A;
 }
@@ -138,6 +144,9 @@ color: #757575;
 /* ===========END HEADER============= */
 
 /* ===========HERO============= */
+.hero{
+    background-color: #2F303A;
+}
 .hero-title{
 font-family: 'Roboto', sans-serif;
 font-weight: 900;
@@ -150,27 +159,24 @@ padding-top: 205px;
 padding-bottom: 30px;
 padding-left: 281px;
 padding-right: 281px;
-/* color: #FFFFFF */
+color: #FFFFFF;
 }
 .hero-title-btn{
 min-width: 200px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-margin-left: 485px;
-margin-bottom: 201px;
-margin-top: 30px;
+margin-left: 500px;
+margin-bottom: 200px;
 
 font-family: 'Roboto', sans-serif;
 font-weight: bold;
 font-size: 16px;
 line-height: 1.875;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 padding: 10px 32px;
 cursor: pointer;
+
 
 color: #FFFFFF;
 }
@@ -187,6 +193,7 @@ color: #FFFFFF;
 .description-list{
     display: flex;
     margin-bottom: 94px;
+    padding-top: 94px;
 }
 .description-list-item:not(:last-child){
     margin-right: 30px;
@@ -219,6 +226,7 @@ color: #757575;
 /* ===========RESPONSIBILITIES============== */
 .responsibilities-title-list{
     display: flex;
+    padding-bottom: 94px;
 }
 
 .responsibilities-title-item:not(:last-child){
@@ -232,11 +240,15 @@ font-size: 36px;
 line-height: 1.167;
 text-align: center;
 letter-spacing: 0.03em;
+padding-top: 94px;
 padding-bottom: 50px;
 color: #212121;
 }
 /* ===========END RESPONSIBILITIES============== */
 /* =========== TEAM ============== */
+.team{
+    background-color: rgba(245,244,250,1);
+}
 .team-title{
 font-weight: bold;
 font-size: 36px;
@@ -245,8 +257,6 @@ text-align: center;
 letter-spacing: 0.03em;
 
 padding-top: 188px;
-padding-bottom: 50px;
-
 color: #212121;
 }
 
@@ -257,6 +267,13 @@ color: #212121;
 
 .team-title-item:not(:last-child){
     margin-right: 30px;
+}
+
+.team-title-item{
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.15);
 }
 
 .team-undertitle{
@@ -286,6 +303,10 @@ color: #757575;
 }
 /* =========== END TEAM ============== */
 /* =========== CONTACT INFORMATION ============= */
+.footer .logo{
+    padding-top: 60px;
+}
+
 .footer {
     background-color: hsl(235deg 10% 21%);
 }
@@ -309,7 +330,8 @@ color: #757575;
     color: #FFFFFF;
 }
 .address-list{
-    padding-top: 27px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 .address-list-item {
 font-family: 'Roboto', sans-serif;
