@@ -163,6 +163,7 @@ color: #FFFFFF;
 }
 .hero-title-btn{
 min-width: 200px;
+height: 50px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -177,7 +178,6 @@ letter-spacing: 0.06em;
 padding: 10px 32px;
 cursor: pointer;
 
-
 color: #FFFFFF;
 }
 
@@ -189,11 +189,10 @@ color: #FFFFFF;
 /* ===========END HERO ============= */
 
 /* ========== JOB DESCRIPTION */
-
 .description-list{
     display: flex;
+    margin-top: 94px;
     margin-bottom: 94px;
-    padding-top: 94px;
 }
 .description-list-item:not(:last-child){
     margin-right: 30px;
@@ -226,7 +225,7 @@ color: #757575;
 /* ===========RESPONSIBILITIES============== */
 .responsibilities-title-list{
     display: flex;
-    padding-bottom: 94px;
+    margin-bottom: 94px;
 }
 
 .responsibilities-title-item:not(:last-child){
@@ -240,7 +239,7 @@ font-size: 36px;
 line-height: 1.167;
 text-align: center;
 letter-spacing: 0.03em;
-padding-top: 94px;
+margin-top: 94px;
 padding-bottom: 50px;
 color: #212121;
 }
@@ -256,7 +255,8 @@ line-height: 1.167;
 text-align: center;
 letter-spacing: 0.03em;
 
-padding-top: 188px;
+padding-top: 94px;
+padding-bottom: 50px;
 color: #212121;
 }
 
